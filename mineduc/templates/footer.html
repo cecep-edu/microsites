@@ -1,0 +1,19 @@
+## mako
+<%! from django.core.urlresolvers import reverse %>
+<%! from django.utils.translation import ugettext as _ %>
+<%! from microsite_configuration import microsite %>
+
+<%namespace name='static' file='static_content.html'/>
+
+<div class="wrapper wrapper-footer">
+  <!-- Footer -->
+    <footer id="footer">
+
+      <ul class="icons">
+        <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+        <li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+        <li><a href="#" class="icon circle fa-youtube"><span class="label">Google+</span></a></li>
+      </ul>
+    </footer>
+</div>
