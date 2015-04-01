@@ -3,7 +3,7 @@
 }
 
 .view-register .introduction header {
-    background-image: none;
+    background-image:none;
 }
 
 header.global {
@@ -171,7 +171,7 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 		/* Wrapper */
 
 			.wrapper {
-				padding: 5em;
+				padding: 0em;
 				background: #D1D2D4;
 
 			}
@@ -221,6 +221,27 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 				    width: 100%;
 				    margin: 0px auto;
 				    text-align: center;
+				}
+
+        .inline_second {
+          display: inline-block;
+        }
+
+        .inline_second li {
+          display:inline;
+          text-align: center;
+				}
+
+        .inline {
+          display: inline-block;
+          margin: 0;
+          float:left;
+          text-align: left;
+        }
+
+        .inline li {
+          display:inline;
+
 				}
 
 				/* List */
