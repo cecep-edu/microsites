@@ -1,9 +1,9 @@
 .view-login .introduction header {
-    background-image: url("../images/login-and-register-banner.png");
+    background-image: none;
 }
 
 .view-register .introduction header {
-    background-image: url("../images/login-and-register-banner.png");
+    background-image: none;
 }
 
 header.global {
