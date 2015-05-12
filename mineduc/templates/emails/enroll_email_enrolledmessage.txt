@@ -3,7 +3,7 @@
 ${_(u"Estimado {full_name}").format(full_name=full_name)}
 
 ${_(u"Usted ha sido inscrito en el curso {course_name} de la plataforma {site_name} "
-	"Este aparecerá ahora como parte de sus cursos en su Dashboard {site_name} "
+	u"Este aparecerá ahora como parte de sus cursos en su Dashboard {site_name} "
 	"dashboard.").format(
 		course_name=course.display_name_with_default,
 		site_name=site_name
