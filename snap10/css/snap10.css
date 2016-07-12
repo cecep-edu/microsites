@@ -3,7 +3,13 @@
     border: 0px solid rgb(197, 236, 238);
     background: none repeat scroll 0% 0% rgb(242, 242, 242);
 }
-
+.lineabanner {
+	background-color: #fdca30;
+	height: 8px;
+	width: 100%;
+	margin:0%;
+	padding:0%;
+}
 .home > header .media {
     background: none repeat scroll 0% 0% rgba(57, 203, 211,0);
     border-width: 0px 0px 0px 0px;
@@ -31,8 +37,8 @@
 }
 
 header.global {
-	background: #99a2a9; /*Encabezado*/
-#	border-bottom: 0px solid #33b5bd;
+	background: #ffffff; /*Encabezado*/
+#	border-bottom: 8px solid #ffffff;
 
 }
 .home header {
@@ -41,16 +47,17 @@ header.global {
 }
 
 header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
-    box-shadow: 0px 2px 1px 0px #be1824;  /* Se cambio el menu*/
-    background: none repeat scroll 0% 0% #be1824; /* Se cambio el menu*/
+    box-shadow: 0px 2px 1px 0px #51b6e5;  /* Se cambio el menu*/
+    background: none repeat scroll 0% 0% #51b6e5; /* Se cambio el menu*/
 }
 
 header.global .nav-courseware li .cta:hover, header.global .nav-courseware div .cta:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover, header.global .nav-courseware li .cta:active, header.global .nav-courseware div .cta:active, .view-partial-mktgregister .action.action-register:active, .view-partial-mktgregister .action.access-courseware:active, header.global .nav-courseware li .cta:focus, header.global .nav-courseware div .cta:focus, .view-partial-mktgregister .action.action-register:focus, .view-partial-mktgregister .action.access-courseware:focus {
-    background: none repeat scroll 0% 0% #d67077;
+    background: none repeat scroll 0% 0% #2ba5dd;
 }
 
 header.global .nav-global li a, header.global .nav-global div a {
-    color: #FFF;
+    color: #2ba5dd;
+	float: right;
 }
 
 #content {
@@ -82,7 +89,7 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 
 .container {
     min-width: 700px;
-		border-bottom: 8px solid #33b5bd;
+		    border-bottom: 8px solid #1375aa;
 }
 
 .login .form-actions button[type="submit"], .register .form-actions button[type="submit"], .passwordreset .form-actions button[type="submit"], #forgot-password-modal #password-reset .form-actions button[type="submit"], .view-survey .action-primary, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
@@ -247,6 +254,8 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 				    width: 100%;
 				    margin: 0px auto;
 				    text-align: center;
+					background-color: #2ba5dd;
+					
 				}
 
         .inline_second {
